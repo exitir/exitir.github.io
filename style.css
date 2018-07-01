@@ -1,0 +1,36 @@
+.btn-danger {
+    width: 300px;
+    border-radius: 50px;
+    height: 60px;
+}
+
+.col {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("Welcome-Aboard2.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cen {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 78%;
+    left: 55%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
