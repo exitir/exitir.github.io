@@ -1,36 +1,46 @@
-.btn-danger {
-    width: 300px;
-    border-radius: 50px;
-    height: 60px;
-}
-
-.col {
-    background-color: gray;
-    border: 2px solid black;
-}
-
 body, html {
-    height: 100%;
-    margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("Welcome-Aboard2.png");
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+hr {
+  border-color: #861d1d;
+  border-width: 3px;
+  max-width: 65px;
 }
 
-.cen {
-    height: 200px;
-    width: 400px;
-    position: fixed;
-    top: 78%;
-    left: 55%;
-    margin-top: -100px;
-    margin-left: -200px;
+h1 {
+  font-size: 3rem;
+  color: rgb(117, 117, 121);
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #f11c1c;
+  border-color: #f11c1c;
+}
+
+.btn-primary:hover {
+  background-color: #861d1d;
+  border-color: #861d1d;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem
 }
